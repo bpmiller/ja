@@ -172,3 +172,726 @@ Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 13:38:36) [G
 Rendering template within layouts/application
 Rendering pages/landingpage
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 13:45:46) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 13:45:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 13:48:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:14:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-03 14:14:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:14:47) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-03 14:14:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:17:17) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:18:47) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:18:55) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:17) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:28) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:28) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:36) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:47) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:48) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:48) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:48) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:49) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:19:58) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:05) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:05) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:06) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:20) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:20) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:33) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:34) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:20:40) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:22:15) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:26) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:22:56) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:05) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:05) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:37) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:23:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:24:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:24:23) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:24:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:26:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:27:33) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:27:47) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:27:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:27:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:28:15) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:28:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:29:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:30:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:31:01) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:31:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:31:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:31:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:31:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:31:32) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:39:03) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:40:38) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:41:19) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:42:10) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:42:10) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:42:54) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#landingpage (for 127.0.0.1 at 2010-05-03 14:42:55) [GET]
+Rendering template within layouts/application
+Rendering pages/landingpage
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/landingpage]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:44:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:44:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:44:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (38.6ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 42ms (View: 41, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 14:45:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#root_path (for 127.0.0.1 at 2010-05-03 14:45:48) [GET]
+
+ActionController::UnknownAction (No action responded to root_path. Actions: home and landingpage):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 15:05:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-03 15:05:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-03 15:05:56) [GET]
+
+ActionController::RoutingError (No route matches "/root_path" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

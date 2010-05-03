@@ -2,7 +2,10 @@ require 'spec_helper'
 
 describe PagesController do
   integrate_views
-
+  before(:each) do
+    @base_title = "Just1word.com Analytics"
+  end
+  
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
@@ -11,7 +14,7 @@ describe PagesController do
 
     it "should have the right title" do
       get 'home'
-      response.should have_tag("title","Just1word.com Analytics | Home")
+      response.should have_tag("title", @base_title + " | Home")
     end
   end
 
@@ -23,7 +26,7 @@ describe PagesController do
 
     it "should have the right title" do
       get 'landingpage'
-      response.should have_tag("title","Just1word.com Analytics | Landing Page")
+      response.should have_tag("title", @base_title + " | Landing Page")
     end
   end
 
