@@ -7,5 +7,9 @@ class PagesController < ApplicationController
   def landingpage
     @title = "Landing Page"
   end
+  
+  def show
+    @landingpage = Landingpage.find(params[:id])
+  end
 
 end

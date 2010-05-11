@@ -14,13 +14,22 @@ require 'spec_helper'
 
 describe Landingpage do
   before(:each) do
-    @valid_attributes = {
-      :url => "value for url",
-      :title => "value for title"
+    @attr = {
+      :url => "/bible/verse/john_3:16\?version=/",
+      :title => "John 3:8 NIV - Bible Verse - Just1Word Online Bible"
     }
   end
 
   it "should create a new instance given valid attributes" do
-    Landingpage.create!(@valid_attributes)
+    Landingpage.create!(@attr)
   end
+  it "should require a URL" do
+    no_url = Landingpage.new(@attr.merge(:url=>""))
+    no_url.should_not be_valid
+  end
+  it "should require a title" do
+    no_title = Landingpage.new(@attr.merge(:title=>""))
+    no_title.should_not be_valid
+  end
+
 end
